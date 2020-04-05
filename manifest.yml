@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello-world-pws-php-castilla
+  memory: 128MB
+  instances: 1
+  buildpacks:
+  - https://github.com/cloudfoundry/php-buildpack.git
+  stack: cflinuxfs3
